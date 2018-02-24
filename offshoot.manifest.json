@@ -1,0 +1,34 @@
+{
+    "plugins": {
+        "SerpentStarwhalGamePlugin": {
+            "name": "SerpentStarwhalGamePlugin",
+            "version": "0.1.0",
+            "files": [
+                {
+                    "path": "serpent_Starwhal_game.py",
+                    "pluggable": "Game"
+                }
+            ],
+            "plugins": [],
+            "libraries": [],
+            "config": {
+                "fps": 2
+            }
+        },
+        "SerpentStarwhalGameAgentPlugin": {
+            "name": "SerpentStarwhalGameAgentPlugin",
+            "version": "0.1.0",
+            "files": [
+                {
+                    "path": "serpent_Starwhal_game_agent.py",
+                    "pluggable": "GameAgent"
+                }
+            ],
+            "plugins": [],
+            "libraries": [],
+            "config": {
+                "frame_handler": "PLAY"
+            }
+        }
+    }
+}

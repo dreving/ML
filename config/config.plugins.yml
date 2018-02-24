@@ -1,0 +1,4 @@
+SerpentStarwhalGameAgentPlugin:
+  frame_handler: PLAY
+SerpentStarwhalGamePlugin:
+  fps: 2
